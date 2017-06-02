@@ -1,6 +1,13 @@
 package CharFilters;
 
 import GenericFilters.GenericFilterChar;
+/**
+ * 
+ * Filtro para reemplazar caracteres especiales
+ * 
+ * @author manuexcd
+ *
+ */
 
 public class SpecialCharacterFilter implements GenericFilterChar {
 	private String patron;

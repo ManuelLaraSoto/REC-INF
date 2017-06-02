@@ -1,6 +1,13 @@
 package FilterManagers;
 
 import java.io.IOException;
+/**
+ * 
+ * Lista de filtros y método para ejecutar todos los filtros.
+ * 
+ * @author manuexcd
+ *
+ */
 import java.util.ArrayList;
 import GenericFilters.GenericFilterTerm;
 

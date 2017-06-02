@@ -2,23 +2,31 @@ import java.util.Map;
 
 @SuppressWarnings("hiding")
 public class Tuple<Double, Map> {
-	public Double IDF;
+	public double IDF;
 	public Map docIDPeso;
 
 	public Tuple() {
 
 	}
 
-	public Tuple(Double IDF, Map docIDPeso) {
+	public Tuple(double IDF, Map docIDPeso) {
 		this.IDF = IDF;
 		this.docIDPeso = docIDPeso;
 	}
-	
+
+	public double getIDF() {
+		return this.IDF;
+	}
+
+	public void setIDF(double IDF) {
+		this.IDF = IDF;
+	}
+
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
-		sb.append("IDF: " + IDF.toString() + ", " + docIDPeso.toString() + "\n");
-		
+		sb.append("IDF: " + IDF + ">> " + docIDPeso.toString());
+
 		return sb.toString();
 	}
 
@@ -35,4 +43,5 @@ public class Tuple<Double, Map> {
 		else
 			return false;
 	}
+
 }

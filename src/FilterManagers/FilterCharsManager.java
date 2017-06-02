@@ -3,6 +3,13 @@ import java.util.ArrayList;
 
 import GenericFilters.GenericFilterChar;
 
+/**
+ * 
+ * Lista de filtros y método para ejecutar todos los filtros.
+ * 
+ * @author manuexcd
+ *
+ */
 public class FilterCharsManager {
 	private ArrayList<GenericFilterChar> filters = new ArrayList<GenericFilterChar>();
 
